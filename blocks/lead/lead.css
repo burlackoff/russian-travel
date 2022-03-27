@@ -2,4 +2,18 @@
   max-width: 984px;
   margin: 0 auto;
   margin-top: 56px;
+  padding: 0 48px;
+}
+
+@media screen and (max-width: 1279.98px) {
+  .lead {
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width: 1023.98px) {
+  .lead {
+    max-width: 100%;
+    padding: 0;
+  }
 }

@@ -11,7 +11,7 @@
   </head>
   <body class="page">
     <header class="header">
-      <img src="./images/logo.svg" alt="Логотип" class="logo" />
+      <img src="./images/logo.svg" alt="Логотип" class="header__logo" />
       <ul class="header__lang">
         <li>
           <a
@@ -55,18 +55,66 @@
         </ul>
       </section>
       <section class="photo-grid">
-        <img src="./images/photo-grid-train.jpg" alt="Поезд" />
-        <img src="./images/photo-grid-atharve.jpg" />
-        <img src="./images/photo-grid-tuman.jpg" />
-        <img src="./images/photo-grid-sochi.jpg" />
-        <img src="./images/photo-grid-arisa.jpg" />
-        <img src="./images/photo-grid-baikal.jpg" />
-        <img src="./images/photo-grid-elbrus.jpg" />
-        <img src="./images/photo-grid-kondratiev.jpg" />
-        <img src="./images/photo-grid-kamchatka.jpg" />
-        <img src="./images/photo-grid-kamchatka-2.jpg" />
-        <img src="./images/photo-grid-baikal-2.jpg" />
-        <img src="./images/photo-grid-ergaki.jpg" />
+        <img
+          src="./images/photo-grid-train.jpg"
+          alt="Поезд"
+          class="photo-grid__item"
+        />
+        <img
+          src="./images/photo-grid-atharve.jpg"
+          alt="Атарва-тулси"
+          class="photo-grid__item"
+        />
+        <img
+          src="./images/photo-grid-tuman.jpg"
+          alt="Туман"
+          class="photo-grid__item"
+        />
+        <img
+          src="./images/photo-grid-sochi.jpg"
+          alt="Сочи"
+          class="photo-grid__item"
+        />
+        <img
+          src="./images/photo-grid-arisa.jpg"
+          alt="Ариса"
+          class="photo-grid__item"
+        />
+        <img
+          src="./images/photo-grid-baikal.jpg"
+          alt="Байкал"
+          class="photo-grid__item"
+        />
+        <img
+          src="./images/photo-grid-elbrus.jpg"
+          alt="Эльбрус"
+          class="photo-grid__item"
+        />
+        <img
+          src="./images/photo-grid-kondratiev.jpg"
+          alt="Кондратьев"
+          class="photo-grid__item"
+        />
+        <img
+          src="./images/photo-grid-kamchatka.jpg"
+          alt="Камчатка"
+          class="photo-grid__item"
+        />
+        <img
+          src="./images/photo-grid-kamchatka-2.jpg"
+          alt="Камчатка"
+          class="photo-grid__item"
+        />
+        <img
+          src="./images/photo-grid-baikal-2.jpg"
+          alt="Байкал"
+          class="photo-grid__item"
+        />
+        <img
+          src="./images/photo-grid-ergaki.jpg"
+          alt="Ергаки"
+          class="photo-grid__item"
+        />
       </section>
       <section class="places">
         <article class="place">
@@ -229,19 +277,13 @@
           target="_blank"
           class="cover__link"
         >
-          <img
-            src="./images/cover-trains.jpg"
-            alt="Поезда"
-            class="cover__overlay"
-          />
-        </a>
-        <div class="cover__description">
           <h2 class="cover__title">До Байкала «на собаках»</h2>
           <p class="cover__subtitle">
             По мотивам учебной темы о Транссибе — путешествие от столицы до
             Байкала на электричках.
           </p>
-        </div>
+          <div class="cover__overlay"></div>
+        </a>
       </section>
     </main>
     <footer class="footer">
