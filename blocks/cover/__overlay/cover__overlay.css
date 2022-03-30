@@ -7,4 +7,5 @@
   z-index: 2;
   background: center / cover no-repeat url(../../../images/cover-trains.jpg);
   opacity: 80%;
+  transition: opacity 0.3s;
 }
