@@ -5,4 +5,6 @@
   letter-spacing: 2px;
   font-weight: 400;
   color: #aaaaaa;
+  display: block;
+  text-transform: uppercase;
 }
