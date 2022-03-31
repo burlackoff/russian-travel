@@ -12,6 +12,7 @@
   .places {
     padding: 0 24px;
     margin-top: 88px;
+    gap: 73px;
   }
 }
 
@@ -19,5 +20,6 @@
   .places {
     padding: 0;
     margin-top: 64px;
+    gap: 50px;
   }
 }
