@@ -6,23 +6,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 245px 48px 245px;
-}
-
-@media screen and (max-width: 1279.98px) {
-  .cover__link {
-    padding: 195px 0;
-  }
+  padding: 21% 0;
 }
 
 @media screen and (max-width: 1023.98px) {
   .cover__link {
-    padding: 115px 0;
+    padding: 16% 0;
   }
 }
 
 @media screen and (max-width: 767.98px) {
   .cover__link {
-    padding: 33px 0;
+    padding: 10% 0;
   }
 }
