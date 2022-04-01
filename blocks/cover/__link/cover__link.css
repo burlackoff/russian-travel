@@ -1,22 +1,29 @@
 .cover__link {
+  position: relative;
   width: 100%;
+  min-height: 740px;
   color: white;
   text-decoration: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 21% 0;
+}
+
+@media screen and (max-width: 1279.98px) {
+  .cover__link {
+    min-height: 640px;
+  }  
 }
 
 @media screen and (max-width: 1023.98px) {
   .cover__link {
-    padding: 16% 0;
+    min-height: 480px;
   }
 }
 
 @media screen and (max-width: 767.98px) {
   .cover__link {
-    padding: 10% 0;
+    min-height: 200px;
   }
 }
