@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url(../../../images/cover-trains.jpg) center center / cover no-repeat; 
+  background: url(../../images/cover-trains.jpg) center center / cover no-repeat; 
 }
 
 .cover:hover .cover__overlay {
